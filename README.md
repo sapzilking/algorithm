@@ -1,2 +1,3 @@
-# programmers
-프로그래머스 코딩테스트 연습용 저장소
+# algorithm
+알고리즘 
+
