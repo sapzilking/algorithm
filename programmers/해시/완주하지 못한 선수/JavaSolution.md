@@ -30,8 +30,10 @@ class Solution {
 ```
 
 ## 풀이
-participant의 값을 participantMap의 key로 하고 해당 이름을 가진 선수의 수를 value로 담는다. (이렇게 한 이유는 동명이인이 있다는 제한사항 때문이다)   
-그다음 completion을 반복하면서 participantMap에서 해당하는 이름을 가진 선수의 수를 하나씩 빼준다.   
-제한사항으로 completion의 길이는 participant의 길이보다 1 작다는 조건이 있으므로, 결국 participantMap의 value가 1인 사람이 완주하지 못한 사람이다.
+* participant의 값을 participantMap의 key로 하고 해당 이름을 가진 선수의 수를 value로 담는다. (이렇게 한 이유는 동명이인이 있다는 제한사항 때문이다)
+<br><br>
+* 그다음 completion을 반복하면서 participantMap에서 해당하는 이름을 가진 선수의 수를 하나씩 빼준다.
+<br><br>
+* 제한사항으로 completion의 길이는 participant의 길이보다 1 작다는 조건이 있으므로, 결국 participantMap의 value가 1인 사람이 완주하지 못한 사람이다.
 
 
