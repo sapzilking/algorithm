@@ -34,3 +34,8 @@
 
 예제 #3  
 "mislav"는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
+
+
+---
+
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98/JavaSolution.md)
