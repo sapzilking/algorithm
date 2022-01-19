@@ -4,6 +4,7 @@
 |2|[전화번호 목록](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D/JavaSolution.md)|해시
 |3|[위장](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EC%9C%84%EC%9E%A5/README.md)|Java|해시
 |4|[베스트앨범](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/README.md)|Java|해시
+|5|타겟 넘버|Java|DFS/BFS
 
 
 
