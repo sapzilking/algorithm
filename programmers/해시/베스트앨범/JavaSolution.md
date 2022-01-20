@@ -81,3 +81,7 @@ class Solution {
 * 그 다음 'sortedMap의 key(장르)로 반복문을 돌면서, songList에서 장르별 최대 2곡씩 꺼내온뒤, 해당 index를 'resultList'에 넣어주었다.
 <br><br>
 * 마지막으로 list -> array로 변환해 준뒤 return 하였다.
+<br>
+
+## 후기
+해당 문제를 통해 Comparable, Comparator인터페이스에 대해 알게되었고, lambda, stream등의 사용법에 좀 더 익숙해 질 수 있었다.
