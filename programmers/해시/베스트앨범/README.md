@@ -35,3 +35,8 @@ pop 장르는 3,100회 재생되었으며, pop 노래는 다음과 같습니다.
 * 고유 번호 1: 600회 재생
 
 따라서 pop 장르의 [4, 1]번 노래를 먼저, classic 장르의 [3, 0]번 노래를 그다음에 수록합니다.
+
+---
+
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%ED%95%B4%EC%8B%9C/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/JavaSolution.md)
+
