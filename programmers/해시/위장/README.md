@@ -54,3 +54,7 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 2. blue_sunglasses
 3. smoky_makeup
 ```
+
+---
+
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%ED%95%B4%EC%8B%9C/%EC%9C%84%EC%9E%A5/JavaSolution.md)
