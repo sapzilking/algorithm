@@ -12,6 +12,7 @@
   
 * 참가자 중에는 동명이인이 있을 수 있습니다.  
 <br>
+
 **입출력 예**
 |participant|completion|return|
 |:---|:---|:---|
@@ -19,9 +20,11 @@
 |["marina", "josipa", "nikola", "vinko", "filipa"]|["josipa", "filipa", "marina", "nikola"]|"vinko"|
 |["mislav", "stanko", "mislav", "ana"]|["stanko", "ana", "mislav"]|"mislav"|
 <br>
+
 **입출력 예 설명**  
 예제 #1  
 "leo"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
+
 예제 #2  
 "vinko"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
 
@@ -31,4 +34,4 @@
 
 ---
 
-[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%E1%84%92%E1%85%A2%E1%84%89%E1%85%B5/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98/JavaSolution.md)
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%ED%95%B4%EC%8B%9C/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98/JavaSolution.md)
