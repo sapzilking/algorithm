@@ -35,3 +35,7 @@
 
 입출력 예 #3    
 첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
+
+---
+
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%ED%95%B4%EC%8B%9C/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D/JavaSolution.md)
