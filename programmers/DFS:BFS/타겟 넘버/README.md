@@ -35,4 +35,4 @@ n개의 음이 아닌 정수가 있습니다. 이 수를 적절히 더하거나 
 
 ---
 
-[정답 및 해설]()
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84/JavaSolution.md)
