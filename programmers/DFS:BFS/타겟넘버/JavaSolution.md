@@ -1,20 +1,19 @@
 ## 코드
 ```java
-import java.util.*;
 class Solution {
     
-    public int solution(String[][] clothes) {
-        HashMap<String , Integer > clothesMap = new HashMap<>();
-        
-        for (String[] c : clothes) {
-            clothesMap.put(c[1], clothesMap.getOrDefault(c[1], 0) + 1);
+    public int solution(int[] numbers, int target) {
+        return recursive(numbers, target, 0,0);
+    }
+    
+    int recursive(int[] numbers, int target, int idx, int sum) {
+        if (numbers.length == idx) {
+            if (target == sum) {
+                return 1;
+            }
+            return 0;
         }
-        
-        int result = 1;
-        for (Integer v : clothesMap.values()) {
-            result = result * (v + 1);
-        }
-        return result - 1;
+        return recursive(numbers, target, idx+1, sum+numbers[idx]) + recursive(numbers, target, idx+1, sum-numbers[idx]);
     }
 }
 ```
