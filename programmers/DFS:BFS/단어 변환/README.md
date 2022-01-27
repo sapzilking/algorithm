@@ -1,38 +1,44 @@
-# [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+# [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
 
 ## 문제 설명
-n개의 음이 아닌 정수가 있습니다. 이 수를 적절히 더하거나 빼서 타겟 넘버를 만들려고 합니다. 예를 들어 [1, 1, 1, 1, 1]로 숫자 3을 만들려면 다음 다섯 방법을 쓸 수 있습니다.
+두 개의 단어 begin, target과 단어의 집합 words가 있습니다. 아래와 같은 규칙을 이용하여 begin에서 target으로 변환하는 가장 짧은 변환 과정을 찾으려고 합니다.
 
 ```
--1+1+1+1+1 = 3
-+1-1+1+1+1 = 3
-+1+1-1+1+1 = 3
-+1+1+1-1+1 = 3
-+1+1+1+1-1 = 3
+1. 한 번에 한 개의 알파벳만 바꿀 수 있습니다.
+2. words에 있는 단어로만 변환할 수 있습니다.
 ```
 
-사용할 수 있는 숫자가 담긴 배열 numbers, 타겟 넘버 target이 매개변수로 주어질 때 숫자를 적절히 더하고 빼서 타겟 넘버를 만드는 방법의 수를 return 하도록 solution 함수를 작성해주세요.
+예를 들어 begin이 "hit", target가 "cog", words가 ["hot","dot","dog","lot","log","cog"]라면 "hit" -> "hot" -> "dot" -> "dog" -> "cog"와 같이 4단계를 거쳐 변환할 수 있습니다.
+
+두 개의 단어 begin, target과 단어의 집합 words가 매개변수로 주어질 때, 최소 몇 단계의 과정을 거쳐 begin을 target으로 변환할 수 있는지 return 하도록 solution 함수를 작성해주세요.
 
 <br>
 
 **제한사항**  
-* 주어지는 숫자의 개수는 2개 이상 20개 이하입니다.
-* 각 숫자는 1 이상 50 이하인 자연수입니다.
-* 타겟 넘버는 1 이상 1000 이하인 자연수입니다.
+* 각 단어는 알파벳 소문자로만 이루어져 있습니다.
+* 각 단어의 길이는 3 이상 10 이하이며 모든 단어의 길이는 같습니다.
+* words에는 3개 이상 50개 이하의 단어가 있으며 중복되는 단어는 없습니다.
+* begin과 target은 같지 않습니다.
+* 변환할 수 없는 경우에는 0를 return 합니다.
 
 <br>
 
 **입출력 예**
-|numbers|target|return
-|---|---|---
-|[1,1,1,1,1]|3|5
+|begin|target|words|return
+|---|---|---|---
+|"hit"|"cog"|["hot", "dot", "dog", "lot", "log", "cog"]|4
+|"hit"|"cog"|["hot", "dot", "dog", "lot", "log"]|0
 
 <br>
 
 **입출력 예 설명**  
 
+예제 #1  
 문제에 나온 예와 같습니다.
+
+예제 #2  
+target인 "cog"는 words 안에 없기 때문에 변환할 수 없습니다.
 
 ---
 
-[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84/JavaSolution.md)
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%EB%8B%A8%EC%96%B4%20%EB%B3%80%ED%99%98/JavaSolution.md)
