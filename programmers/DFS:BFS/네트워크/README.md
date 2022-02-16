@@ -1,4 +1,4 @@
-# [네트워크(https://programmers.co.kr/learn/courses/30/lessons/43162)
+# [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
 ## 문제 설명
 네트워크란 컴퓨터 상호 간에 정보를 교환할 수 있도록 연결된 형태를 의미합니다. 예를 들어, 컴퓨터 A와 컴퓨터 B가 직접적으로 연결되어있고, 컴퓨터 B와 컴퓨터 C가 직접적으로 연결되어 있을 때 컴퓨터 A와 컴퓨터 C도 간접적으로 연결되어 정보를 교환할 수 있습니다. 따라서 컴퓨터 A, B, C는 모두 같은 네트워크 상에 있다고 할 수 있습니다.
@@ -33,4 +33,4 @@
 ![image](https://user-images.githubusercontent.com/93430103/154245171-dfcece91-e235-4fcf-8b1e-ceabae54c885.png)---
 
 ***
-[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84/JavaSolution.md)
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/JavaSolution.md)
