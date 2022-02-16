@@ -23,4 +23,4 @@
 <br>
 
 ***
-[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/DFS:BFS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/JavaSolution.md)
+[정답 및 해설](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98/JavaSolution.md)
