@@ -4,27 +4,25 @@ import java.util.*;
 
 class Solution {
     
-    public String solution(int[] numbers) {
-        // numbers를 String배열로 변환
-        String[] numbersToStrArr = Arrays.stream(numbers) 
-                .mapToObj(String::valueOf)
-                .toArray(String[]::new);
-        Arrays.sort(numbersToStrArr, (n1, n2) -> (n2+n1).compareTo(n1+n2)); //정렬
-        
-        if (numbersToStrArr[0].equals("0")) //numbers가 모두 0일때
-			return "0";
-        
-        return String.join("", numbersToStrArr); //String으로 리턴
+    public int solution(int[] citations) {
+        int answer = 0;
+	Arrays.sort(citations);
+
+	for (int i = 0; i < citations.length ; i++) {
+	    int h = citations.length - i;
+	    if (citations[i] >= h) {
+	        answer = h;
+		break;
+	    }
+	}
+	return answer;
     }
 }
 ```
 <br>
 
 ## 풀이
-* ASCII코드 값에 따라 정렬하기 위해 int배열을 String 배열로 변환한다.
-* 그 다음 두 수를 합쳤을 때 더 큰수를 판별하기 위해 Comparator를 구현해서 numbersToStrArr를 정렬한다.
-* numbers가 모두 0일때는 0만 리턴하는 조건을 추가한 뒤, numbersToStrArr를 String으로 변환 후 리턴한다.
-<br>
+* citations를 오름차순 정렬한 뒤 반복하면서 citations의 원소값이 h보다 크거나 같으면 h를 answer에 담은 뒤 반복문을 빠져나온다.
 
 ## 후기
-해당 문제는 스트림, 람다, Comparator, join을 이용해서 해결할 수 있었다.
+* 해당 문제는 예제를 한 3개정도 적어보니 규칙이 보여서 어렵지 않게 해결할 수 있었다.
