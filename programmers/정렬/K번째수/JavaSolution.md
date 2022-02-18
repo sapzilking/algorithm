@@ -1,37 +1,24 @@
 ## 코드
 ```java
+import java.util.*;
+
 class Solution {
-    public int solution(int n, int[][] computers) {
-        int answer = 0;
-        int len = n;
-        boolean[] visited = new boolean[n];
-        
-        for (int i=0; i<len; i++) {
-            if (!visited[i]) {
-                dfs(i, len, computers, visited);
-                answer++;
-            }
+    
+    public int[] solution(int[] array, int[][] commands) {
+        int[] answer = new int[commands.length];
+        for (int i = 0; i < commands.length; i++) {
+            int[] copyAndSortArray = Arrays.stream(Arrays.copyOfRange(array, commands[i][0] - 1, commands[i][1])).sorted().toArray();
+            answer[i] = copyAndSortArray[commands[i][2] - 1];
         }
         return answer;
-    }
-    
-    public void dfs(int i, int len, int[][] computers, boolean[] visited) {
-        visited[i] = true;
-        
-        for (int j=0; j<len; j++) {
-            if (i != j && computers[i][j] == 1 && !visited[j]) {
-                dfs(j, len, computers, visited);
-            }
-        }
     }
 }
 ```
 <br>
 
 ## 풀이
-* 해당 문제는 깊이우선탐색으로 해결하기 위해 재귀함수를 사용하였다. 
-* dfs를 수행 중 자기자신이 아니면서 값이 1이고, 이미 방문하지 않은 곳이면 다시 dfs를 호출하는 식으로 구현해 주었다.
+* array 배열 특정 위치 값 복사 및 정렬 후 특정 인덱스의 값을 answer배열에 넣은 후 리턴한다.
 <br>
 
 ## 후기
-dfs관련 문제를 몇개 풀었더니 해당 문제는 간단하게 해결할 수 있었다.
+* 이 문제는 간단하기에 따로 설명할 내용이 없다.
