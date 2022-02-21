@@ -4,27 +4,43 @@ import java.util.*;
 
 class Solution {
     
-    public String solution(int[] numbers) {
-        // numbers를 String배열로 변환
-        String[] numbersToStrArr = Arrays.stream(numbers) 
-                .mapToObj(String::valueOf)
-                .toArray(String[]::new);
-        Arrays.sort(numbersToStrArr, (n1, n2) -> (n2+n1).compareTo(n1+n2)); //정렬
+    static class Answer {
+	int idx;
+	int cnt;
         
-        if (numbersToStrArr[0].equals("0")) //numbers가 모두 0일때
-			return "0";
+        public Answer(int idx, int cnt) {
+		this.idx = idx;
+		this.cnt = cnt;
+	}
+        public int getIdx() { return idx; }
+    }
+    
+    public int[] solution(int[] answers) {
+        int[] first = {1, 2, 3, 4, 5};
+	int[] second = {2, 1, 2, 3, 2, 4, 2, 5};
+	int[] third = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
         
-        return String.join("", numbersToStrArr); //String으로 리턴
+        List<Answer> answerList = new ArrayList<>();
+        
+	for (int i = 0; i < 3; i++)
+		answerList.add(new Answer(i+1, 0));
+	for (int i = 0; i < answers.length; i++) {
+		if (answers[i] == first[i % first.length]) { answerList.get(0).cnt++; }
+		if (answers[i] == second[i % second.length]) { answerList.get(1).cnt++; }
+		if (answers[i] == third[i % third.length]) { answerList.get(2).cnt++; }
+	}
+	int maxCnt = Math.max(answerList.get(0).cnt, Math.max(answerList.get(1).cnt, answerList.get(2).cnt));
+
+        return answerList.stream().filter(a -> a.cnt == maxCnt).mapToInt(Answer::getIdx).sorted().toArray();
     }
 }
 ```
+
 <br>
 
 ## 풀이
-* ASCII코드 값에 따라 정렬하기 위해 int배열을 String 배열로 변환한다.
-* 그 다음 두 수를 합쳤을 때 더 큰수를 판별하기 위해 Comparator를 구현해서 numbersToStrArr를 정렬한다.
-* numbers가 모두 0일때는 0만 리턴하는 조건을 추가한 뒤, numbersToStrArr를 String으로 변환 후 리턴한다.
+* 정답을 반복문을 돌면서 수포자 각각의 배열을 완전탐색으로 탐색하여 해결하였다.
 <br>
 
 ## 후기
-해당 문제는 스트림, 람다, Comparator, join을 이용해서 해결할 수 있었다.
+* 수포자 각각의 배열에 인덱스를 어떻게 할지만 구하면 쉽게 해결할 수 있는 문제였다.
