@@ -14,6 +14,7 @@
 |9|[K번째수](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/K%EB%B2%88%EC%A7%B8%EC%88%98/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/K%EB%B2%88%EC%A7%B8%EC%88%98/JavaSolution.md)|정렬
 |10|[가장 큰 수](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98/JavaSolution.md)|정렬
 |11|[H-Index](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/H-Index/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%A0%95%EB%A0%AC/H-Index/JavaSolution.md)|정렬
+|12|[모의고사](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/JavaSolution.md)|완전탐색
 
 
 
