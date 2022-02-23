@@ -4,22 +4,22 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int brown, int yellow) {
-      int[] answer = new int[2];
-      int size = brown + yellow; // 카펫 사이즈
+        int[] answer = new int[2];
+        int size = brown + yellow; // 카펫 사이즈
 
-      for (int i = 1; i <= size; i++) {
-        int row = i;
-        int column = size / i;
+        for (int i = 1; i <= size; i++) {
+            int row = i;
+            int column = size / i;
 
-        if (row < column) // column이 row보다 더 크면 안되니 continue처리
-          continue;
-        if (row * column == size && (row - 2) * (column - 2) == yellow) { // 사이즈가 row * column과 같고 yellow의 크기가 param이 맞을 때
-          answer[0] = row;
-          answer[1] = column;
-          break;
+            if (row < column) // column이 row보다 더 크면 안되니 continue처리
+                continue;
+            if (row * column == size && (row - 2) * (column - 2) == yellow) { // 사이즈가 row * column과 같고 yellow의 크기가 param이 맞을 때
+                answer[0] = row;
+                answer[1] = column;
+                break;
+            }
         }
-      }
-      return answer;
+        return answer;
     }   
 }
 
