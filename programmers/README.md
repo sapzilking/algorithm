@@ -17,6 +17,7 @@
 |12|[모의고사](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/JavaSolution.md)|완전탐색
 |13|[소수찾기](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B0/JavaSolution.md)|완전탐색
 |14|[카펫](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%B9%B4%ED%8E%AB/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%B9%B4%ED%8E%AB/JavaSolution.md)|완전탐색
+|15|[기능개발](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/JavaSolution.md)|스택/큐
 
 
 
