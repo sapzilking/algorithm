@@ -24,5 +24,5 @@ class Solution {
 ## 풀이
 * progresses를 반복하면서 해당 기능이 완료되면 배포까지 걸린 일 수(day)를 deplyCnt배열에 넣는다.
 * 다음 반복문에서는 이전 일 수 가 진행되는 동안 기능이 이미 개발이 완료 되었는지 판단한 뒤 완료 되었다면 같은 일 수를 가지는 deplyCnt배열의 기존 값을 1 증가 시킨다.
-* 이런식으로 일 수 별 배포되는 기능의 개수를 deployCnt배열에 넣어준 뒤 마지막에 stream.filter를 이용해서 array로 변환한 후 값을 리턴한다.
+* 이런식으로 일 수 별 배포되는 기능의 개수를 deployCnt배열에 넣어준 뒤 마지막에 stream.filter를 이용해서 array로 변환한 후 값을 리턴해준다.
 <br>
