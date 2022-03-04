@@ -33,7 +33,8 @@ class Solution {
             this.priority = priority;
         }
     }
-}```
+}
+```
 
 <br>
 
