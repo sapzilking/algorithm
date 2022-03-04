@@ -16,9 +16,8 @@ class Solution {
             if (maxPriority > queue.peek().priority) {
                 queue.offer(queue.poll());
             } else {
-                Print poll = queue.poll();
                 answer++;
-                if (poll.location == location) break;
+                if (queue.poll().location == location) break;
             }
         }
         return answer;
