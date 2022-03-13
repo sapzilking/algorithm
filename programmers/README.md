@@ -19,7 +19,7 @@
 |14|[카펫](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%B9%B4%ED%8E%AB/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/%EC%B9%B4%ED%8E%AB/JavaSolution.md)|완전탐색
 |15|[기능개발](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/JavaSolution.md)|스택/큐
 |16|[프린터](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%ED%94%84%EB%A6%B0%ED%84%B0/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%ED%94%84%EB%A6%B0%ED%84%B0/JavaSolution.md)|스택/큐
-
+|17|[다리를 지나는 트럭](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD/JavaSolution.md)|스택/큐
 
 
 
