@@ -21,6 +21,8 @@
 |16|[프린터](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%ED%94%84%EB%A6%B0%ED%84%B0/README.md)|[Java](https://github.com/merry-santa/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%ED%94%84%EB%A6%B0%ED%84%B0/JavaSolution.md)|스택/큐
 |17|[다리를 지나는 트럭](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD/JavaSolution.md)|스택/큐
 |18|[주식가격](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%EC%8A%A4%ED%83%9D:%ED%81%90/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9/JavaSolution.md)|스택/큐
+|19|[더 맵게](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EB%8D%94%20%EB%A7%B5%EA%B2%8C/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EB%8D%94%20%EB%A7%B5%EA%B2%8C/JavaSolution.md)|힙(Heap)
+|20|[이중우선순위큐](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90/JavaSolution.md)|힙(Heap)
 
 
 
