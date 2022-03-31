@@ -25,6 +25,7 @@
 |20|[디스크 컨트롤러](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EB%94%94%EC%8A%A4%ED%81%AC%20%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EB%94%94%EC%8A%A4%ED%81%AC%20%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/JavaSolution.md)|힙(Heap)
 |21|[이중우선순위큐](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90/README.md)|[Java](https://github.com/sugil92/algorithm/blob/main/programmers/%ED%9E%99(Heap)/%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90/JavaSolution.md)|힙(Heap)
 |22|[체육복](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%B2%B4%EC%9C%A1%EB%B3%B5/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%B2%B4%EC%9C%A1%EB%B3%B5/JavaSolution.md)|탐욕법(Greedy)
+|23|[조이스틱](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1/JavaSolution.md)|탐욕법(Greedy)
 
 
 
