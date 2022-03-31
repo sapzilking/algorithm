@@ -1,38 +1,23 @@
 ## 코드
 ```java
-import java.util.stream.Collectors;
-import java.util.*;
-
 class Solution {
-    public int solution(int n, int[] lost, int[] reserve) {
-        Arrays.sort(lost);
-        Arrays.sort(reserve);
-        int answer = n - lost.length;
+    public int solution(String name) {
+        int answer = 0;
+        int nameLen = name.length();
+        int min = nameLen - 1; //정방향 역방향 판단용
 
-        //여벌 체육복이 있는 학생이 체육복을 도난 당한 경우
-        for (int i = 0; i < lost.length; i++) {
-            for (int j = 0; j < reserve.length; j++) {
-                if (lost[i] == reserve[j]) {
-                    answer++;
-                    lost[i] = -1;
-                    reserve[j] = -1;
-                    break;
-                }
-            }
-        }
-        
+        for (int i = 0; i < nameLen; i++) {
+            //상하 최소 조작 횟수 판단
+            answer += Math.min(name.charAt(i) - 'A', 'Z' - name.charAt(i) + 1);
 
-        for (int i = 0; i < lost.length; i++) {
-            for (int j = 0; j < reserve.length; j++) {
-                if (lost[i] - 1 == reserve[j] || lost[i] + 1 == reserve[j]) {
-                    answer++;
-                    reserve[j] = -1;
-                    break;
-                }
-            }
+            int nextIdx = i + 1;
+            //다음 문자가 A인지 확인
+            while (nextIdx < nameLen && name.charAt(nextIdx) == 'A')
+                nextIdx++;
+            min = Math.min(min, i * 2 + nameLen - nextIdx); //기존의 min과 역방향 이동 중 최소 조작 회숫 판단
+            min = Math.min(min, (nameLen - nextIdx) * 2 + i); //기존의 min과 역방향 먼저 이동 후 정방향으로 이동 했을 때 중 최소 조작 횟수 판단
         }
-        
-        return answer;
+        return answer + min;
     }
 }
 ```
