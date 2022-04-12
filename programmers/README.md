@@ -27,6 +27,7 @@
 |22|[체육복](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%B2%B4%EC%9C%A1%EB%B3%B5/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%B2%B4%EC%9C%A1%EB%B3%B5/JavaSolution.md)|탐욕법(Greedy)
 |23|[조이스틱](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1/JavaSolution.md)|탐욕법(Greedy)
 |24|[큰 수 만들기](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/JavaSolution.md)|탐욕법(Greedy)
+|25|[구명보트](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8/README.md)|[Java](https://github.com/sapzilking/algorithm/blob/main/programmers/%ED%83%90%EC%9A%95%EB%B2%95(Greedy)/%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8/JavaSolution.md)|탐욕법(Greedy)
 
 
 
