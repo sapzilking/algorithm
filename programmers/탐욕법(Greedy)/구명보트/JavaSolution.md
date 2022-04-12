@@ -1,26 +1,22 @@
 ## 코드
 ```java
-class Solution {
-    public static String solution(String number, int k)  {
-        StringBuilder sb = new StringBuilder();
-        int nextIdx = 0;
+import java.util.*;
 
-        //만들어야 하는 수의 자릿수를 맞출 수 있는 최대 범위 까지 반복
-        for (int i = 0; i < number.length() - k; i++) {
-            char max = '0';
-            for (int j = nextIdx; j <= i + k; j++) { //현재 index 부터 만들어야 하는 수의 자릿수를 맞출 수 있는 최대 범위까지 반복
-                if (number.charAt(j) == '9') { //9가 가장 큰 수 이므로 현재 숫자가 9이면 max값으로 set하고 반복문을 빠져나간다.
-                    max = number.charAt(j);
-                    nextIdx = j + 1;
-                    break;
-                } else if (number.charAt(j) > max) { //현재 숫자가 기존의 max보다 클 때
-                    max = number.charAt(j);
-                    nextIdx = j + 1;
-                }
+class Solution {
+    public int solution(int[] people, int limit) {
+        int answer = 0;
+        int minIdx = 0;
+        Arrays.sort(people);
+
+        for (int maxIdx = people.length - 1; maxIdx >= minIdx; maxIdx--) {
+            if (people[maxIdx] >= limit) { //people[maxIdx]의 값이 limit보다 크거나 같으면 바로 answer의 값을 1 증가시키고 continue
+                answer++;
+                continue;
             }
-            sb.append(max);
+            if (people[maxIdx] + people[minIdx] <= limit) { minIdx++; } //가장 무거운 사람과 가장 가벼운 사람을 더한 값이 limit값 보다 작거나 같으면 minIdx를 증가 1 증가 시켜준다.
+            answer++; //answer(구명보트의 개수)를 1 증가 시켜준다.
         }
-        return sb.toString();
+        return answer;
     }
 }
 ```
@@ -28,10 +24,9 @@ class Solution {
 <br>
 
 ## 풀이
-1. 첫번째 for문 : 만들어야 하는 정답 자릿수의 수를 만들 수 있는 범위 내의 최대 index (number: "1231234", k: 3이면 4자리수를 만들어야 하므로 index 3까지만 반복. 그 이상 가면 4자리수를 못만든다.)
-2. 이전에 찾은 max값의 index부터 정답 자릿수의 수를 만들 수 있는 범위 까지 반복한다.  
-2-1. 기존의 max값과 꺼내온 숫자를 비교하여 더 크다면 max값을 변경한다.  
-2-2. 반복이 끝나면 현재 max값을 stringBuilder에 추가한다. (StringBuilder를 사용한 이유는 String을 사용하면 문자열 덧셈 연산 시 매번 새로운 객체를 생성하기 때문에 메모리 및 시간을 낭비할 수 있기 때문이다.)
+* 구명보트 개수의 최솟값을 구해야 하므로, people를 오름차순 정렬 해준 뒤 가장 큰 값과 가장 작은 값을 더하면서 비교해 주면 된다.  
+  사람의 무게가 limit보다 크거나 같으면 더이상 태울 수 없으므로 그대로 answer를 1 증가시켜주고 continue를 해주고, 
+  아니라면 가장 무거운 사람과 가장 가벼운 사람을 더해준뒤 limit값과 비교한뒤 적절한 처리를 해 준다.
 
 
 
