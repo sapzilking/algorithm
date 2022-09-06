@@ -33,5 +33,7 @@ Output: [8,9,9,9,0,0,0,1]
 ---
 
 ## Solution  
-[Java]()  
-[Kotlin]()
+||my solution|solution|
+|:---:|:---:|:---:|
+|Java|[java_my_solution](https://github.com/sapzilking/algorithm/blob/main/leetcode/2.%20Add%20Two%20Numbers/solution/java/mySolution.md)|[java_solution](https://github.com/sapzilking/algorithm/blob/main/leetcode/2.%20Add%20Two%20Numbers/solution/java/solution.md)|
+|(TODO)Kotlin|[kotlin_my_solution]()|[kotlin_solution]()|
